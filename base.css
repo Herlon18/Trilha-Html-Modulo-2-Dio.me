@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 html, body {
     margin: 0;
 }
@@ -10,29 +14,159 @@ body {
 .wrapper {
     width: 1200px;
     display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+    margin: auto auto;
+    background-color: #3eb549;
 }
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
+.header > img {
+    width: 100%;
+}
+
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color: #3eb549;
+    display: flex;
+    flex-direction: column;
 }
+
+.menu > div {
+    padding-top: 5rem;
+
+}
+
+.menu > div > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu > div > a:hover {
+    background-color: white;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    min-height: auto;
+    display: inline-block;
+    position: relative;
 }
+
 .content {
     background-color: white;
-    min-height: 300px;
+    min-height: 500px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.content > div > img {
+    width: 500px;
+}
+
+#texto-principal {
+    text-align: center;
+    padding: 5rem;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #f1f1f1;
     min-height: 150px;
+}
+
+#footer1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer-logo p {
+    text-align: center;
+}
+
+#footer-logo img {
+    width: 120px;
+    margin-top: 1rem;
+}
+
+#endereco { 
+    padding: 2rem;
+    text-align: center;
+}
+
+#redes-sociais {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#redes-sociais > div > a {
+    margin: 10px;
+}
+
+#redes-sociais > div > a > img {
+    width: 50px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.tabela {
+    font-size: 20px;
+}
+
+#cabecalho {
+    background-color: black;
+    color: #f1f1f1;
+}
+
+#dados-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 7rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#formulario > button {
+    border-radius: 10px;
+    background-color: #3eb549;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+}
+
+#formulario > button:hover {
+    background-color: #77d380;
+}
+
+#whatsapp-logo {
+    margin-right: 1rem;
 }
