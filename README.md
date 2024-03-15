@@ -19,6 +19,7 @@ Além de outros recursos falados nas aulas!
 3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
 
 -----------------------------------------
+https://raw.githack.com/Herlon18/Trilha-Html-Modulo-2-Dio.me/main/index.html
 
 Realizei o projeto com base em meus conhecimentos adquiridos nas aulas e com mais pesquisa sobre algumas costumizações simples que estava em mente e tentei projetar.
 A base do projeto foi mais em HTML utilizando um pouco do CSS ensinado e pesquisado.
